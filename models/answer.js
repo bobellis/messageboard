@@ -1,4 +1,4 @@
 MessageBoard.Answer = DS.Model.extend({
-  answer: DS.attr(),
+  answerText: DS.attr(),
   question: DS.belongsTo('question', {async: true})
 });

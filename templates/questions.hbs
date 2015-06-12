@@ -1,7 +1,7 @@
 <ul>
-  {{#each question in model}}
+  {{#each question}}
     <li>{{question.question}}: {{question.author}}</li>
   {{/each}}
 </ul>
 
-<!-- {{#link-to 'new-question' classNames='btn btn-success'}} New Questions {{/link-to}} -->
+{{#link-to 'new-question' classNames='btn btn-success'}} New Questions {{/link-to}}
