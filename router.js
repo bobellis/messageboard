@@ -1,4 +1,4 @@
-MessageBoard.Router.map(function(){
+Messageboard.Router.map(function(){
   this.resource('questions', {path: '/'});
-  this.resource('new-question')
+  this.resource('new-question');
 });

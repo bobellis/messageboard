@@ -1,2 +1,2 @@
-MessageBoard.ApplicationSerializer = DS.LSSerializer.extend();
-MessageBoard.ApplicationAdapter = DS.LSAdapter.extend();
+Messageboard.ApplicationSerializer = DS.LSSerializer.extend();
+Messageboard.ApplicationAdapter = DS.LSAdapter.extend();

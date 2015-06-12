@@ -1,3 +1,3 @@
-MessageBoard.QuestionController = Ember.ObjectController.extend({
+Messageboard.QuestionController = Ember.ObjectController.extend({
 
 });

@@ -1,7 +1,14 @@
-<ul>
-  {{#each question}}
-    <li>{{question.question}}: {{question.author}}</li>
-  {{/each}}
-</ul>
+<h1>The message board</h1>
+  <ul>
+    {{#each post in model}}
+      <li>Question:{{question.description}}</li>
+    {{/each}}
+  </ul>
 
-{{#link-to 'new-question' classNames='btn btn-success'}} New Questions {{/link-to}}
+  <ul>
+    {{#each candy in texas}}
+      <li>Here's a question!</li>
+    {{/each}}
+  </ul>
+
+{{#link-to 'new-question' classNames='btn btn-success'}} New Question {{/link-to}}
