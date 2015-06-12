@@ -1,5 +1,7 @@
 <ul>
-  {{each question in model}}
-    <li>{{#link-to 'question' question}}{{question.question}}: {{question.author}}{{/link-to}}</li>
+  {{#each question in model}}
+    <li>{{question.question}}: {{question.author}}</li>
   {{/each}}
 </ul>
+
+<!-- {{#link-to 'new-question' classNames='btn btn-success'}} New Questions {{/link-to}} -->
