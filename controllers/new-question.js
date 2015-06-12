@@ -6,7 +6,6 @@ Messageboard.NewQuestionController = Ember.Controller.extend({
         description: this.get('description'),
         author: this.get('author')
       });
-debugger
       newQuestion.save()
       this.transitionToRoute('questions');
     }
