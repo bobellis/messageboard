@@ -1,14 +1,9 @@
 <h1>The message board</h1>
   <ul>
-    {{#each post in model}}
-      <li>Question:{{question.description}}</li>
+    {{#each question in model}}
+      <li>{{#link-to 'question' question}} Question:{{question.description}}{{/link-to}}</li>
     {{/each}}
   </ul>
 
-  <ul>
-    {{#each candy in texas}}
-      <li>Here's a question!</li>
-    {{/each}}
-  </ul>
 
 {{#link-to 'new-question' classNames='btn btn-success'}} New Question {{/link-to}}
