@@ -9,8 +9,3 @@ Messageboard.NewAnswerRoute = Ember.Route.extend({
     return newAnswer;
   }
 });
-// Messageboard.AnswerRoute = Ember.Route.extend({
-//     model: function() {
-//       return this.store.find('answer');
-//     }
-//   });
